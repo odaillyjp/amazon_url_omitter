@@ -3,8 +3,8 @@
   "name"            : "Amazon url omitter",
   "version"         : "1.0",
   "description"     : "Omit Amazon.com product page's url.",
-  "permissions"     : ["contextMenus", "tabs", "http://www.amazon.com/", "http://www.amazon.co.jp"],
-  "background": {
-    "scripts"       : ["background.js"]
+  "permissions"     : ["tabs", "http://www.amazon.co.jp/", "https://www.amazon.co.jp/"],
+  "browset_action": {
+    "default_popup" : ["background.js"]
   }
 }
