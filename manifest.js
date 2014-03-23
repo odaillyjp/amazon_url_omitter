@@ -4,7 +4,7 @@
   "version"         : "1.0",
   "description"     : "Omit Amazon.com product page's url.",
   "permissions"     : ["tabs", "http://www.amazon.co.jp/", "https://www.amazon.co.jp/"],
-  "browset_action": {
+  "browser_action": {
     "default_popup" : ["background.js"]
   }
 }
