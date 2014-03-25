@@ -13,7 +13,7 @@
   }
 
   function omitParameterFromPath(path) {
-    return path.replace(/(dp\/[a-zA-Z0-9]+\/).*?$/, "$1");
+    return path.replace(/((?:dp|product)\/[a-zA-Z0-9]+\/).*?$/, "$1");
   }
 
   history.pushState("", "", omitedPath);
