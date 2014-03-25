@@ -8,9 +8,9 @@
     "http://www.amazon.co.jp/*"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts"       : ["background.js"]
   },
-  "browser_action": {
+  "page_action": {
     "default_icon"  : "icon.png",
     "default_title" : "Amazon url omitter"
   }
