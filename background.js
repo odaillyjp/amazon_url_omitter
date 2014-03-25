@@ -1,1 +1,3 @@
-chrome.tabs.executeScript(null, { file: "scripts.js" });
+chrome.browserAction.onClicked.addListener(function () {
+  chrome.tabs.executeScript(null, { "file": "script.js" });
+});
